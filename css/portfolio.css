@@ -1,0 +1,40 @@
+.portfolio {
+	text-align: center;
+}
+
+.portfolio__title {
+	text-align: center;
+	padding: 113px 0 47px;
+	font-size: 34px;
+	font-weight: bold;
+}
+
+.portfolio__demo {
+
+}
+.portfolio_link {
+	display: block;
+	text-decoration: underline;
+	color: #070707;
+	padding: 43px 0 99px;
+}
+.portfolio_link:last-child {
+	padding-bottom: 96px;
+}
+
+@media (max-width: 1000px) {
+	.portfolio__demo {
+		width: calc(100% - 60px);
+		height: auto;
+	}
+}
+
+@media (max-width: 425px) {
+	.portfolio__title {
+		padding: 81px 0 65px;
+	}
+
+	.portfolio_link {
+		padding: 35px 0 79px;
+	}
+}

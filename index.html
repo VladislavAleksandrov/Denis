@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+	      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+	      crossorigin="anonymous" referrerpolicy="no-referrer"/>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<nav id="home" class="nav container">
+	<button class="nav_mobile"><svg width="33" height="20" viewBox="0 0 33 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+		<rect width="33" height="3.83721" fill="black"/>
+		<rect y="7.67383" width="33" height="3.83721" fill="black"/>
+		<rect y="15.3496" width="33" height="3.83721" fill="black"/>
+	</svg>
+	</button>
+<ul class="nav__menu">
+	<li class="nav__element"><a href="#home" class="nav__link">Home</a></li>
+	<li class="nav__element"><a href="#about" class="nav__link grey">About me</a></li>
+	<li class="nav__element"><a href="#skills" class="nav__link grey">Skills</a></li>
+	<li class="nav__element"><a href="#portfolio" class="nav__link grey">Portfolio</a></li>
+	<li class="nav__element"><a href="#contacts" class="nav__link grey">Contacts</a></li>
+</ul>
+</nav>
+<!--end of navigation-->
+<section class="intro container">
+	<div class="intro__text">
+		<div class="intro__name">Denis Novik</div>
+		<div class="intro__info">UX | UI designer
+			24 years old, Minsk
+		</div>
+	</div>
+	<img height="388" width="940" src="img/novik_full.jpg" alt="novik-photo" class="intro__img">
+</section>
+<section id="about" class="about grey-back">
+	<div class="about__body">
+		<h2 class="about__title">About me</h2>
+		<p class="about__text">Hi, I'm Denis – UX/UI designer from Minsk.
+			I'm interested in design and everything connected with it.
+		</p>
+
+		<p class="about__text">I'm studying at courses "Web and mobile design
+			interfaces" in IT-Academy.</p>
+
+		<p class="about__text">Ready to implement excellent projects
+			with wonderful people.</p>
+	</div>
+</section>
+<!--end of about-->
+<section id="skills" class="skills">
+	<h2 class="skills__title">Skills</h2>
+	<div class="skills__description">I work in such programs as</div>
+	<div class="skills__programs container">
+		<div class="skills__block">
+			<div class="skills__programs_image">
+				<img src="img/ps.svg" alt="PS image">
+			</div>
+			<div class="skills__program">Adobe
+				Photoshop
+			</div>
+			<div class="skills__rating rating">
+				<div class="rating__star rating__star_active"></div>
+				<div class="rating__star rating__star_active"></div>
+				<div class="rating__star rating__star_active"></div>
+				<div class="rating__star rating__star_active"></div>
+				<div class="rating__star"></div>
+			</div>
+		</div>
+		<div class="skills__block">
+			<div class="skills__programs_image">
+				<img src="img/ai.svg" alt="AI image">
+			</div>
+			<div class="skills__program">Adobe
+				Illustrator
+			</div>
+			<div class="rating">
+				<div class="rating__star rating__star_active"></div>
+				<div class="rating__star rating__star_active"></div>
+				<div class="rating__star rating__star_active"></div>
+				<div class="rating__star"></div>
+				<div class="rating__star"></div>
+			</div>
+		</div>
+		<div class="skills__block">
+			<div class="skills__programs_image">
+				<img src="img/ae.svg" alt="AE image">
+			</div>
+			<div class="skills__program">Adobe
+				After Effects
+			</div>
+			<div class="rating">
+				<div class="rating__star rating__star_active"></div>
+				<div class="rating__star rating__star_active"></div>
+				<div class="rating__star rating__star_active"></div>
+				<div class="rating__star rating__star_active"></div>
+				<div class="rating__star"></div>
+			</div>
+		</div>
+		<div class="skills__block">
+			<div class="skills__image">
+				<img src="img/figma.svg" alt="Figma image">
+			</div>
+			<div class="skills__program">Figma <br><br></div>
+			<div class="rating">
+				<div class="rating__star rating__star_active"></div>
+				<div class="rating__star rating__star_active"></div>
+				<div class="rating__star rating__star_active"></div>
+				<div class="rating__star rating__star_active"></div>
+				<div class="rating__star"></div>
+			</div>
+		</div>
+	</div>
+</section>
+<!--end of skills-->
+<section id="portfolio" class="portfolio grey-back">
+	<h2 class="portfolio__title">Portfolio</h2>
+	<div class="portfolio__element">
+		<img width="940" height="513" src="img/fashion-store.jpg" alt="landing-demo image" class="portfolio__demo">
+		<a href="#" class="portfolio_link">
+			Online fashion store - Homepage
+		</a>
+	</div>
+	<div class="portfolio__element">
+		<img width="940" height="525" src="img/reebok-web.jpg" alt="landing-demo image" class="portfolio__demo">
+		<a href="#" class="portfolio_link">
+			Reebok Store - Concept
+		</a>
+	</div>
+	<div class="portfolio__element">
+		<img width="940" height="525" src="img/braun.jpg" alt="landing-demo image" class="portfolio__demo">
+		<a href="#" class="portfolio_link">
+			Braun Landing Page - Concept
+		</a>
+	</div>
+</section>
+<!--end of portfolio section-->
+<aside id="contacts" class="contacts">
+	<div class="contacts__title">Contacts</div>
+	<div class="contacts__chat-me">Want to know more or just chat?
+		You are welcome!</div>
+	<button class="contacts__button">Send message</button>
+	<div class="contacts__socials socials">
+		<a class="socials__ln socials__link" href="#"></a>
+		<a class="socials__insta socials__link" href="#"></a>
+		<a class="socials__be socials__link" href="#"></a>
+		<a class="socials__dribble socials__link" href="#"></a>
+<!--		<img src="img/ln.svg" alt="1">
+		<img src="img/insta.svg" alt="2">
+		<img src="img/be.svg" alt="3">
+		<img src="img/dribble.svg" alt="4">-->
+
+	</div>
+	<footer class="contacts__message grey">
+		<p>Like me on <br>
+		LinkedIn, Instagram, Behance, Dribble</p>
+	</footer>
+</aside>
+<script src="js/script.js"></script>
+</body>
+</html>

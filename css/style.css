@@ -1,0 +1,58 @@
+@import url(nav.css);
+@import url(intro.css);
+@import url(about.css);
+@import url(skills.css);
+@import url(rating.css);
+@import url(portfolio.css);
+@import url(contacts.css);
+@import url(socials.css);
+
+@font-face {
+	font-family: 'Gilroy';
+	font-weight: normal;
+	src: url("../fonts/Gilroy-Medium.woff2"), url("../fonts/Gilroy-Medium.woff"),
+	url("../fonts/Gilroy-Medium.ttf");
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	font-weight: bold;
+	src: url("../fonts/Gilroy-Bold.woff2"), url("../fonts/Gilroy-Bold.woff"),
+	url("../fonts/Gilroy-Bold.ttf");
+}
+
+* {
+	margin: 0;
+}
+
+body {
+	font-family: Gilroy, sans-serif;
+	color: #070707;
+	font-size: 18px;
+	line-height: calc(22 / 18);
+}
+
+.container {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.grey {
+	color: #828282;
+}
+
+.grey-back {
+	background: #F6F6F6;
+}
+
+@media (max-width: 1000px) {
+	.container {
+		width: calc(100% - 60px);
+	}
+
+	.portfolio__demo {
+		width: calc(100% - 60px);
+		height: auto;
+	}
+}
+

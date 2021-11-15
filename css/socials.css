@@ -1,0 +1,36 @@
+.socials {
+	width: 342px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 0 auto 46px;
+}
+
+.socials__ln {
+	background: url("../img/ln.svg");
+}
+
+.socials__insta {
+	background: url("../img/insta.svg");
+}
+
+.socials__be {
+	background: url("../img/be.svg");
+}
+
+.socials__dribble {
+	background: url("../img/dribble.svg");
+}
+
+.socials__link {
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-size: cover;
+}
+
+@media (max-width: 425px) {
+	.socials {
+		width: calc(100% - 60px);
+	}
+}

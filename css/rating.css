@@ -1,0 +1,21 @@
+.rating {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.rating__star {
+	height: 26px;
+	width: 26px;
+	background: url("../img/star.svg") no-repeat;
+	background-size: contain;
+	opacity: 0.2;
+}
+
+.rating__star_active {
+	opacity: 1;
+}
+
+.rating__star:hover {
+	opacity: 0.5;
+}
